@@ -1,0 +1,35 @@
+# Macedonian translations for ckanext-repeating.
+# Copyright (C) 2018 ORGANIZATION
+# This file is distributed under the same license as the ckanext-repeating
+# project.
+# FIRST AUTHOR <EMAIL@ADDRESS>, 2018.
+#
+msgid ""
+msgstr ""
+"Project-Id-Version: ckanext-repeating 0.0.1\n"
+"Report-Msgid-Bugs-To: EMAIL@ADDRESS\n"
+"POT-Creation-Date: 2018-07-23 15:29+0200\n"
+"PO-Revision-Date: 2018-07-23 15:33+0200\n"
+"Language: mk\n"
+"Language-Team: mk <LL@li.org>\n"
+"Plural-Forms: nplurals=2; plural=(n != 1);\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=utf-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"Generated-By: Babel 2.3.4\n"
+"Last-Translator: \n"
+"X-Generator: Poedit 2.0.4\n"
+
+#: ckanext/repeating/validators.py:36
+msgid "expecting list of strings"
+msgstr "се очекува листа од низа знаци"
+
+#: ckanext/repeating/validators.py:42
+#, python-format
+msgid "invalid type for repeating text: %r"
+msgstr "неправилен тип за повторување на текст: %r"
+
+#: ckanext/repeating/validators.py:49
+#, python-format
+msgid "invalid encoding for \"%s\" value"
+msgstr "невалидно кодирање за вредност \"%s\""

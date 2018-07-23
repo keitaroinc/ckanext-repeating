@@ -1,13 +1,16 @@
 import ckan.plugins as p
 from ckan.plugins.toolkit import add_template_directory
+from ckan.lib.plugins import DefaultTranslation
 
 from ckanext.repeating import validators
 
 
 
-class RepeatingPlugin(p.SingletonPlugin):
+class RepeatingPlugin(p.SingletonPlugin, DefaultTranslation):
     p.implements(p.IValidators)
     p.implements(p.IConfigurer)
+    p.implements(p.ITranslation)
+
 
     def update_config(self, config):
         """

@@ -9,27 +9,27 @@ msgstr ""
 "Project-Id-Version: ckanext-repeating 0.0.1\n"
 "Report-Msgid-Bugs-To: EMAIL@ADDRESS\n"
 "POT-Creation-Date: 2018-07-23 15:29+0200\n"
-"PO-Revision-Date: 2018-07-23 15:34+0200\n"
-"Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
+"PO-Revision-Date: 2018-08-07 23:44+0200\n"
 "Language: sq\n"
 "Language-Team: sq <LL@li.org>\n"
-"Plural-Forms: nplurals=2; plural=(n != 1)\n"
+"Plural-Forms: nplurals=2; plural=(n != 1);\n"
 "MIME-Version: 1.0\n"
 "Content-Type: text/plain; charset=utf-8\n"
 "Content-Transfer-Encoding: 8bit\n"
 "Generated-By: Babel 2.3.4\n"
+"Last-Translator: \n"
+"X-Generator: Poedit 2.0.4\n"
 
 #: ckanext/repeating/validators.py:36
 msgid "expecting list of strings"
-msgstr "pritet një listë personash"
+msgstr "duke pritur listën e vargjeve"
 
 #: ckanext/repeating/validators.py:42
 #, python-format
 msgid "invalid type for repeating text: %r"
-msgstr "tipi i përsëritjes së pavlefshme: %r"
+msgstr "lloji i përsëritjes i pavlefshëm: %r"
 
 #: ckanext/repeating/validators.py:49
 #, python-format
 msgid "invalid encoding for \"%s\" value"
-msgstr "kodim i pavlefshëm për vlera \"% s\""
-
+msgstr "kodim i pavlefshëm pë vlerën \"%s\""
